@@ -446,6 +446,44 @@ display: none;
 
  }
 
+  .horario{
+    padding: 100px 0px;
+    background-color: #0d0d0d;
+  }
+
+  .horario-info h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .horario-txt {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .txt{
+    color: #ffffff;
+  }
+
+  .txt h4{
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 30px;
+
+  }
+
+  .txt p {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-bottom: 15px;
+
+  }
+
+
   
 
 
