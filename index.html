@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" contenct="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -67,7 +71,7 @@
                     <div class="swiper-slide">
                         <div class="slider">
                             <div class="slider-txt">
-                                <h1>Auto 1</h1>
+                                <h1>Hamburguesa 1</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     Officiis, error ad illum labore corporis quis sapiente ducimus expedita eius minima repellendus asperiores, 
@@ -91,7 +95,7 @@
                     <div class="swiper-slide">
                         <div class="slider">
                             <div class="slider-txt">
-                                <h1>Auto 1</h1>
+                                <h1>Hamburguesa 2</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     Officiis, error ad illum labore corporis quis sapiente ducimus expedita eius minima repellendus asperiores, 
@@ -115,7 +119,7 @@
                     <div class="swiper-slide">
                         <div class="slider">
                             <div class="slider-txt">
-                                <h1>Auto 1</h1>
+                                <h1>Hamburguesa 3</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     Officiis, error ad illum labore corporis quis sapiente ducimus expedita eius minima repellendus asperiores, 
@@ -155,7 +159,7 @@
         <div class="tabs container">
 
             <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
-            <label for="tab1">Auto</label>
+            <label for="tab1">Hamburguesas</label>
 
             <div class="tab">
                 <div class="swiper mySwiper-2" id="swiper1">
@@ -224,7 +228,7 @@
             </div>
 
                         <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
-            <label for="tab2">Auto2</label>
+            <label for="tab2">Tacos</label>
 
             <div class="tab">
                 <div class="swiper mySwiper-2" id="swiper2">
@@ -234,7 +238,7 @@
                             <div class="product">
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
-                                    <img src="" alt="">
+                                    <img src="images/food4.png" alt="">
 
                                 </div>
                                 <div class="product-txt">
@@ -252,7 +256,7 @@
                             <div class="product">
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
-                                    <img src="" alt="">
+                                    <img src="images/food5.png" alt="">
 
                                 </div>
                                 <div class="product-txt">
@@ -270,7 +274,7 @@
                             <div class="product">
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
-                                    <img src="" alt="">
+                                    <img src="images/food6.png" alt="">
 
                                 </div>
                                 <div class="product-txt">
@@ -293,7 +297,7 @@
             </div>
 
                                     <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
-            <label for="tab3">Auto3</label>
+            <label for="tab3">Variedades</label>
 
             <div class="tab">
                 <div class="swiper mySwiper-2" id="swiper3">
@@ -303,7 +307,7 @@
                             <div class="product">
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
-                                    <img src="" alt="">
+                                    <img src="images/food7.png" alt="">
 
                                 </div>
                                 <div class="product-txt">
@@ -321,7 +325,7 @@
                             <div class="product">
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
-                                    <img src="" alt="">
+                                    <img src="images/food8.png" alt="">
 
                                 </div>
                                 <div class="product-txt">
@@ -339,7 +343,7 @@
                             <div class="product">
                                 <div class="product-img">
                                     <h4>Nuevo</h4>
-                                    <img src="" alt="">
+                                    <img src="images/food9.png" alt="">
 
                                 </div>
                                 <div class="product-txt">
@@ -518,6 +522,33 @@
 
         </div>
 
+
+        <div>
+           <section id="contact" class="py-16 md:py-24 bg-indigo-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Contactanos!</h2>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-xl">
+                <form id="contactForm">
+                    <div class="mb-6">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-shadow" placeholder="John Doe" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-shadow" placeholder="you@example.com" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-shadow" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105">Send Message</button>
+                </form>
+                <p id="form-response" class="mt-4 text-center"></p>
+            </div>
+        </div>
+    </section>
+
+    </div>
 
     </footer>
 

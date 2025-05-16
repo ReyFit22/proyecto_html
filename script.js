@@ -59,3 +59,28 @@ input.addEventListener("change", function (){
 
 }); 
 
+        const contactForm = document.getElementById('contactForm');
+        const formResponse = document.getElementById('form-response');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent default form submission
+
+                // Get form data (optional, for more complex handling)
+                // const formData = new FormData(contactForm);
+                // const name = formData.get('name');
+                // const email = formData.get('email');
+                // const message = formData.get('message');
+                // console.log('Form submitted:', { name, email, message });
+
+                formResponse.textContent = 'Thank you for your message! We will get back to you soon.';
+                formResponse.className = 'mt-4 text-center text-green-600 font-medium'; // Success message style
+                contactForm.reset(); // Clear the form
+
+                // Remove the message after a few seconds
+                setTimeout(() => {
+                    formResponse.textContent = '';
+                    formResponse.className = 'mt-4 text-center';
+                }, 5000);
+            });
+        }

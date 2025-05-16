@@ -336,6 +336,10 @@ display: none;
     color: #ffffff;
 } 
 
+.tabs input[type="radio"]:checked + label + .tab{
+    display: block;
+}
+
 .product {
     display: flex;
     align-items: center;
@@ -665,7 +669,12 @@ display: none;
     .links h4 {
         margin: 25px 0px 10px 0px;
     }
+
+    
+    
 }
+
+
 
 
 
